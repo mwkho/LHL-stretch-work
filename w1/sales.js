@@ -27,6 +27,7 @@ const calculateSalesTax = function(salesData, taxRates){
       companyTax[nameOfCompany].totalTax += calculateTax(total, taxRates[province])
     }
   }
+}
   return companyTax;
 }
 
